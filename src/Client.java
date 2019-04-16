@@ -33,7 +33,7 @@ public class Client {
 
             String guess = in.readLine();
 
-            while (!guess.contains("Pogodili ste")) {
+            while (!guess.toLowerCase().contains("pogodjen")) {
                 System.out.println(guess);
                 out.println(sc.nextLine());
                 guess = in.readLine();
